@@ -1,0 +1,13 @@
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 11rem 0 11rem;
+}

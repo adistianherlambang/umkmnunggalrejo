@@ -1,0 +1,95 @@
+.container {
+    margin-top: 10rem;
+    background-color: #3D3FF6;
+    color: white;
+}
+
+.footerTop {
+    display: flex;
+    padding: 6rem 4rem;
+    width: 100%;
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+.topLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.topCenter {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.topRight {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footerTitle {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.links {
+    font-size: 1.5rem;
+    font-weight: 200;
+    transition: 300ms ease;
+}
+
+.links:hover {
+    font-weight: 300;
+    transition: 300ms ease;
+}
+
+.centerContentDesc {
+    font-weight: 200;
+}
+
+.centerContentEmail {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.sosmedContainer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.sosmedIcon {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBottom {
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.line {
+    margin-bottom: 2rem;
+    height: 2px;
+    width: 100%;
+    background-color: #8C8EFF;
+}
+
+.copyright {
+    font-weight: 300;
+}
