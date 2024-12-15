@@ -93,3 +93,41 @@
 .copyright {
     font-weight: 300;
 }
+
+@media (max-width: 768px) {
+    .footerTop{
+        padding: 3rem 1rem;
+    }
+
+    .footerTitle{
+        font-size: 0.95rem;
+    }
+
+    .title{
+        font-size: 0.95rem;
+    }
+
+    .centerContentEmail{
+        font-size: 0.65rem;
+    }
+
+    .centerContentDesc{
+        font-size: 0.65rem;
+    }
+    .sosmedIcon{
+        width: 20px;
+        height: auto;
+        margin: -.5rem 0 0 0;
+    }
+    .links{
+        font-size: 0.75rem;
+    }
+
+    .topRight{
+        padding: 0 0 0 1rem;
+    }
+
+    .copyright{
+        font-size: 0.65rem;
+    }
+}

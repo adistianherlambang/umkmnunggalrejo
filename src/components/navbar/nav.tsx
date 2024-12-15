@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Link href="/" className={styles.logoContainer}>
-        <p className={styles.logo}>RejoCraft</p>
+        <p className={styles.logo}>Rejo4Craft</p>
       </Link>
       <ul className={styles.link}>
         <li><Link href="/" className={styles.isi}><p className={styles.text}>Beranda</p></Link></li>

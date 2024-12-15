@@ -140,3 +140,31 @@
     flex-direction: column;
     gap: 2rem;
 }
+/* responsive */
+@media (max-width: 768px) {
+    .headerTitle {
+        font-size: 1.75rem; /* Smaller size for tablets */
+    }
+
+    .header2Text{
+        font-size: 1.35rem;
+    }
+
+    .header3 {
+    height: 15rem;
+    width: 80%;
+    }
+
+    .vidTitle{
+        font-size: 20px;
+    }
+
+    .headerRight .headerRightContent svg{
+        height: 24;
+        margin: -20px -45px;
+    }
+
+    .headerRight .headerRightContent .vidTitle{
+        margin: 13px -30px;
+    }
+}
