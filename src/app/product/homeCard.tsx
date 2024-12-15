@@ -1,5 +1,3 @@
-import Image from "next/image"
-import dynamic from "next/dynamic"
 import Link from "next/link"
 import styles from "./homeCard.module.css"
 import CardButton from "../../components/cardButton/cardButton"

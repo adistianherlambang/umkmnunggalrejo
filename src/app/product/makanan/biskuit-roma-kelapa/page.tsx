@@ -2,7 +2,6 @@ import React from 'react';
 import styles from "@/app/product/productDetail.module.css"
 import Navbar from '@/components/navbar/nav';
 import Footer from '@/components/footer/footer';
-import Image from 'next/image';
 import Link from 'next/link';
 
 import InfiniteSlider from './slider';

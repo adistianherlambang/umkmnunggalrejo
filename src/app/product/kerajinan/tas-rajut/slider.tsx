@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import styles from "@/app/product/productDetail.module.css"; // Mengimpor CSS Module
+import styles from "@/app/product/productDetail.module.css";
+import Image from "next/image";
 
 const InfiniteSlider = () => {
   const images = [
@@ -18,11 +19,13 @@ const InfiniteSlider = () => {
   return (
     <div className={styles.sliderContainer}>
       <div className={styles.imgContainer}>
-        <img src={mainImage} alt="Main Image" className={styles.mainImage} />
+        <Image width={1000} height={1000} src={mainImage} alt="Main Image" className={styles.mainImage} />
       </div>
       <div className={styles.thumbnailContainer}>
         {images.map((image, index) => (
-          <img
+          <Image
+            width={500}
+            height={500}
             key={index}
             src={image}
             alt={`Thumbnail ${index}`}

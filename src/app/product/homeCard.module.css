@@ -60,10 +60,16 @@
     display: none;
 }
 
-.img {
-    background: #444444;
+.imgContainer {
+    overflow: hidden;
     height: 15rem;
     border-radius: 0.5rem;
+    display: flex;
+}
+
+.img {
+    width: 100%;
+    height: auto;
 }
 
 .productTitle {

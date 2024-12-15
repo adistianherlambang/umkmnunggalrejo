@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "@/app/product/homeCard.module.css";
+import Image from "next/image";
 
 export default function TasRajut({ page }) {
     console.log('Page:', page);
@@ -8,7 +9,9 @@ export default function TasRajut({ page }) {
             href="/product/kerajinan/tas-rajut"
             className={`${styles.card} ${page === "home" ? styles.homePage : ""} ${page === "makanan" ? styles.makananPage : ""}`}
         >
-            <div className={styles.img}></div>
+            <div className={styles.imgContainer}>
+                <Image className={styles.img} alt="photo" width={200} height={200} src="/product/kerajinan/tas-rajut/1.jpg" />
+            </div>
             <div className={styles.product}>
                 <p className={styles.productTitle}>Tas Rajut</p>
                 <p className={styles.seller}>Pondok Indah</p>
