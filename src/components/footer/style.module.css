@@ -94,7 +94,7 @@
     font-weight: 300;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 365px) and (max-width: 767px) {
     .footerTop{
         padding: 3rem 1rem;
     }
