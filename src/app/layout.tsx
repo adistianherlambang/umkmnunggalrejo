@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "@/components/navbar/nav";
+import Footer from "@/components/footer/footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -17,7 +19,7 @@ const Alexandria = localFont({
   src: "./fonts/Alexandria.ttf",
   variable: "--alexandria",
   weight: "100 900",
-})
+});
 
 export const metadata: Metadata = {
   title: "Website UMKM Nunggal Rejo",
@@ -37,7 +39,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${Alexandria.variable} antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

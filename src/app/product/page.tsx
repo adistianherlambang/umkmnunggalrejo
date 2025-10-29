@@ -1,15 +1,11 @@
-import styles from "./style.module.css"
-import Makanan from "./homeCard"
-import Navbar from "@/components/navbar/nav"
-import Footer from "@/components/footer/footer"
+import styles from "./style.module.css";
+import Makanan from "./homeCard";
 
 export default function Product() {
-    return(
-        <div>
-            <Navbar/>
-            <div className={styles.spacer}></div>
-            <Makanan/>
-            <Footer/>
-        </div>
-    )
+  return (
+    <div>
+      <div className={styles.spacer}></div>
+      <Makanan />
+    </div>
+  );
 }
